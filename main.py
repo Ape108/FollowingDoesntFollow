@@ -37,6 +37,6 @@ if __name__ == "__main__":
 
     except (FileNotFoundError, IOError) as e:
         print(f"{e} : Please Try Again.")
-    #except:
-        #print("Unknown Error. Please Try Again.")
+    except:
+        print("Unknown Error. Please Try Again.")
     
