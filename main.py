@@ -52,3 +52,9 @@ if __name__ == "__main__":
     finally:
         followers.close()
         following.close()
+
+    except (FileNotFoundError, IOError) as e:
+        print(f"{e} : Please Try Again.")
+    #except:
+        #print("Unknown Error. Please Try Again.")
+    
